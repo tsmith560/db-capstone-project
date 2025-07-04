@@ -1,7 +1,7 @@
 DELIMITER //
 
 CREATE PROCEDURE AddValidBooking (
-    IN p_booking_date DATETIME,
+    IN p_booking_date DATE,
     IN p_table_number INT
 )
 BEGIN
@@ -29,3 +29,7 @@ BEGIN
 END //
 
 DELIMITER ;
+
+
+-- Call procedure
+CALL AddValidBooking ('2022-10-14', 3);

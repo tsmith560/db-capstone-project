@@ -1,6 +1,6 @@
 DELIMITER //
 
-CREATE PROCEDURE CheckBooking(IN booking_date DATETIME, IN table_no INT)
+CREATE PROCEDURE CheckBooking(IN booking_date DATE, IN table_no INT)
 BEGIN
     DECLARE booking_count INT;
 
@@ -18,5 +18,5 @@ END //
 DELIMITER ;
 
 
--- because I set BookingDate as "DATETIME" in Workbench, need to include time
-CALL CheckBooking('2022-10-10 00:00:00', 5);
+-- Call the procedure
+CALL CheckBooking('2022-10-10', 5);

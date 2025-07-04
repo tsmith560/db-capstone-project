@@ -3,7 +3,7 @@ DELIMITER //
 CREATE PROCEDURE AddBooking (
 IN booking_id INT,
 IN customer_id VARCHAR(20),
-IN booking_date DATETIME,
+IN booking_date DATE,
 IN table_number INT
 )
 
@@ -13,3 +13,7 @@ BEGIN
 END //
 
 DELIMITER ;
+
+
+-- Call procedure
+CALL AddBooking(5, '00-435-7006', '2022-10-14', 3);
