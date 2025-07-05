@@ -1,2 +1,0 @@
-Note on Schema Differences:
-Due to the lack of specific schema requirements in the course materials, I designed a normalized schema based on the data available and the project goals. My schema contains all necessary entities (Orders, Customers, MenuItems, and the relationships between them), even if table names differ. All assigned queries were implemented successfully using this design.
