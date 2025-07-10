@@ -1,0 +1,31 @@
+MenuItemID,ItemName,Category,Cuisine
+00-000-01,Athens White wine,Drinks,Greek
+00-000-02,Corfu Red Wine,Drinks,Turkish
+00-000-03,Italian Coffee,Drinks,Italian
+00-000-04,Roma Red wine,Drinks,Italian
+00-000-05,Ankara White Wine,Drinks,Turkish
+00-000-06,Turkish Coffee,Drinks,Turkish
+01-000-01,Olives,Starters,Greek
+01-000-02,Flatbread,Starters,Italian
+01-000-03,Minestrone,Starters,Italian
+01-000-04,Tomato bread,Starters,Italian
+01-000-05,Falafel,Starters,Turkish
+01-000-06,Hummus,Starters,Turkish
+02-000-01,Greek salad,Mains,Greek
+02-000-02,Bean soup,Mains,Italian
+02-000-03,Pizza,Mains,Italian
+02-000-04,Carbonara,Mains,Italian
+02-000-05,Kabasa,Mains,Turkish
+02-000-06,Shawarma,Mains,Greek
+03-000-01,Greek yoghurt,Desserts,Greek
+03-000-02,Ice cream,Desserts,Italian
+03-000-03,Cheesecake,Desserts,Italian
+03-000-04,Affogato,Desserts,Italian
+03-000-05,Turkish yoghurt,Desserts,Turkish
+03-000-06,Baklava,Desserts,Greek
+04-000-01,Tapas,Sides,Italian
+04-000-02,Potato salad,Sides,Greek
+04-000-03,Bruschetta,Sides,Italian
+04-000-04,Focaccia,Sides,Italian
+04-000-05,Meatballs,Sides,Turkish
+04-000-06,Fries,Sides,Greek
